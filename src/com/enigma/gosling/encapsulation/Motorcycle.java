@@ -50,7 +50,6 @@ public class Motorcycle {
     public void setFuel(Integer fuel) {
         if (fuel < 0) {
             System.out.println("fuel is negative");
-            return;
         }
         this.fuel = fuel;
     }
